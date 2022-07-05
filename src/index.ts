@@ -3,7 +3,9 @@ import { detectLanguage } from "./detectLanguage";
 import { persianSwears } from "./persianDataSet";
 import { pinglishDataSet } from "./pinglishDataSet";
 
-export function detectPersianSwears(sentence: string) {
+import type { ISearchResult } from "./types";
+
+export function detectPersianSwears(sentence: string): ISearchResult {
   const language = detectLanguage(sentence);
   if (language === "persian") {
     return search({ swears: persianSwears, sentence });
