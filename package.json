@@ -1,6 +1,6 @@
 {
   "name": "detect-persian-swears",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "detect persian swears in node js",
   "main": "build/index.js",
   "repository": "https://github.com/eyousefifar/detect-persian-swears",
