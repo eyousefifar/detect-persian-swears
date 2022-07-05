@@ -3,7 +3,7 @@ import type { ISearch, ISearchResult } from "./types";
 const fuse = new Fuse<string>([], {
   includeScore: true,
   distance: 800,
-  threshold: 0.1,
+  threshold: 0.2,
 });
 
 export function search(args: ISearch): ISearchResult {
