@@ -1,1 +1,1 @@
-export { detectPersianSwears } from "./src"
+export { detectPersianSwears } from "./src";

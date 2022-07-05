@@ -2,8 +2,8 @@ import Fuse from "fuse.js";
 import type { ISearch, ISearchResult } from "./types";
 const fuse = new Fuse<string>([], {
   includeScore: true,
-  distance: 8,
-  threshold: 0.15,
+  distance: 800,
+  threshold: 0.1,
 });
 
 export function search(args: ISearch): ISearchResult {
