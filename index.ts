@@ -1,0 +1,1 @@
+export { detectPersianSwears } from "./src"
